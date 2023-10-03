@@ -65,10 +65,85 @@ public class MainObjetos {
 		System.out.println(p5.getNombre());
 		
 		listaPersonas = null;
+		
+		int n = 0b101;
+		System.out.println(n);
+		int n2 = 0xF;
+		System.out.println(n2);
+		int cp = 05100;
+		System.out.println(cp);
+		
+		Persona p6 = new Persona();
+		Direccion d1 = new Direccion();
+		p6.setDireccion(d1);
+		p6.getDireccion().setCp("28224");
+		System.out.println(p6.getDireccion().getCp());
+		
+		d1.setNombreVia("Gran via");
+		System.out.println(p6.getDireccion().getNombreVia());
+		
+		String cad1 = "hola";
+		cad1 = "adios";
+		cad1 = cad1 + " pepe";
+		
+		String cad2 = "felix";
+		String cad3 = "felix";
+		System.out.println(cad2 == cad3);
+		
+		String cad4 = new String("felix");
+		String cad5 = new String("felix");
+		System.out.println(cad4 == cad5);
+		
+		System.out.println(cad2 == cad5);
+		
+		System.out.println(cad2.equals(cad3));
+		System.out.println(cad4.equals(cad5));
+		System.out.println(cad2.equals(cad5));
+		
+		MainObjetos mo = new MainObjetos();
+		mo.metodo1();
+		
+		Empleado em1 = new Empleado();
+		em1.setNombre("Currito");
+		System.out.println(em1.toString());
+		
+		Persona p7 = new Empleado();
+		//p7 = new Bebe();
+		em1 = (Empleado)p7;
+		em1.setSalario(34444);
+		
+		Persona e2 = new Empleado();
+		e2.setNombre("Ibai");
+		e2.setEdad(34);
+		System.out.println(e2);
+		
+		Object o2 = new Persona();
+		o2 = new ArrayList<>();
+		o2 = 5;
+	}
+	
+	public void metodo1() {
+		System.out.println("Hola :)");
 	}
 	
 	public static void cambiarNombre(Persona p) {
 		p.setNombre("Nekro");
 	}
+	
+	public static void cambiarNombre(Persona p, Persona p2) {
 
+	}
+	
+	public static void cambiarNombre() {
+
+	}
+
+	public static void cambiarNombre(int n1) {
+
+	}
+	
+	/*
+	public static String cambiarNombre(int n1) {
+
+	}*/
 }

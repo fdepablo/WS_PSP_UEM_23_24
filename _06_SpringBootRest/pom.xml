@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.curso</groupId>
-	<artifactId>06_SpringBootRest</artifactId>
+	<artifactId>_06_SpringBootRest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>27_SpringBootRest</name>

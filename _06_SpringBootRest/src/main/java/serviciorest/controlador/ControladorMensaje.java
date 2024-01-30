@@ -51,7 +51,7 @@ public class ControladorMensaje {
 	//navegador leera el body como un HTML, y si ponemos "text/plain" entonces 
 	//lo interpretará como un texto plano. La cabecera "content-type" es de
 	//las cabeceras mas importantes que hay en HTTP
-	@GetMapping(value = "mensajeHTML", produces = MediaType.APPLICATION_PDF_VALUE)
+	@GetMapping(value = "mensajeHTML", produces = MediaType.TEXT_HTML_VALUE)
 	public String obtenerMensajeHTML() {
 		//Esta clase es muy buena para concatenar Strings
 		StringBuffer buffer = new StringBuffer();

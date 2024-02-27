@@ -42,7 +42,7 @@ public class _01_MainRSAConfidencialidad {
 			
 			System.out.println("Paso 6.1: Ahora vamos a descifrar el criptograma usando la clave publica");
 			Cipher descifrador = Cipher.getInstance("RSA");
-			descifrador.init(Cipher.DECRYPT_MODE, clavePrivada);
+			descifrador.init(Cipher.DECRYPT_MODE, clavePublica);
 			byte[] bytesMensajeDescifrado = descifrador.doFinal(bytesMensajeCifrado);
 			System.out.println("Paso 6.2: Mensaje Descifrado: " + new String(bytesMensajeDescifrado));
 			

@@ -1,0 +1,85 @@
+{
+    "Ordenador":{
+        "nombre": "Flameador 2024",
+        "precio": "1900",
+        "perifericos": [
+            {"teclado" : {
+                "nombre": "Flameador 2024",
+                "marca": "Flamer Gaming SL"
+                }
+            },
+            {"raton":{
+                "nombre": "Insultating pro 1",
+                "marca": "Flamer Gaming SL"
+                }
+            }
+        ],
+        "componentes": [
+            {"monitor": {
+                "nombre": "4K feeder pro-max",
+                "marca": "Rager",
+                "resolucion": "2160p"
+                }
+            },
+            {"Placa_base":{
+                "modelo": "B470",
+                "marca": "iamanoob",
+                "Slots_ram": 4
+                }
+            }
+            ,
+            {"ram":[
+                {
+                    "id": 1,
+                    "marca": "flaming",
+                    "tipo": "DDR4",
+                    "capacidad": "8GB"
+                },
+                {
+                    "id": 2,
+                    "marca": "flaming",
+                    "tipo": "DDR4",
+                    "capacidad": "8GB"
+                }
+                ]
+            },
+            {"procesador":{
+                "marca": "manker",
+                "modelo": "i9.5",
+                "velocidad": "5Ghz"
+                }
+            },
+            {"disco duro": [
+                {
+                    "id": 1,
+                    "marca": "manker",
+                    "tipo": "HDD",
+                    "capacidad": "2TB"
+                },
+                {
+                    "id": 2,
+                    "marca": "Raager",
+                    "tipo": "SSD",
+                    "capacidad": "500GB"}
+                ]
+            },
+            {"Fuente de alimentacion": {
+                "marca": "Manker",
+                "modelo": "ATX",
+                "Potencia":
+                    {
+                        "valor": "750W",
+                        "unidad": "KW"
+                    }
+                }
+            },
+            {"tarjeta grafica":{
+                "marca": "iAmanoob",
+                "modelo": 4080,
+                "precio" : "2 bitcoin",
+                "potencia": "trillon cudas"
+                }
+            }
+        ]
+    }
+}
